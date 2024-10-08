@@ -1,0 +1,144 @@
+[
+  {
+    "capture_base": {
+      "attributes": {
+        "DocumentNumber": "Text",
+        "ExpiryDate": "DateTime",
+        "FirstName": "Text",
+        "LastName": "Text"
+      },
+      "classification": "",
+      "digest": "EpXbLB7GirSGAGHtNdPCgyNe9O9vz39VYyPFLTxAzG3s",
+      "flagged_attributes": [
+        "FirstName",
+        "LastName",
+        "DocumentNumber",
+        "ExpiryDate"
+      ],
+      "type": "spec/capture_base/1.0"
+    },
+    "overlays": [
+      {
+        "attribute_character_encoding": {
+          "DocumentNumber": "utf-8",
+          "ExpiryDate": "utf-8",
+          "FirstName": "utf-8",
+          "LastName": "utf-8"
+        },
+        "capture_base": "EpXbLB7GirSGAGHtNdPCgyNe9O9vz39VYyPFLTxAzG3s",
+        "default_character_encoding": "utf-8",
+        "digest": "Ea3_pEQbOR6h90Oh8U6mhC694kJny97yH4km71xce4mg",
+        "type": "spec/overlays/character_encoding/1.0"
+      },
+      {
+        "attribute_categories": [],
+        "attribute_labels": {
+          "DocumentNumber": "Numéro de passeport",
+          "ExpiryDate": "Date d'expiration",
+          "FirstName": "Prénoms",
+          "LastName": "Nom de famille"
+        },
+        "capture_base": "EpXbLB7GirSGAGHtNdPCgyNe9O9vz39VYyPFLTxAzG3s",
+        "category_labels": {},
+        "digest": "EuljNO5aSBT4kIpQj6yL7CdSyTgYVspVMwQlkbGi7VT0",
+        "language": "fr",
+        "type": "spec/overlays/label/1.0"
+      },
+      {
+        "attribute_information": {
+          "DocumentNumber": "Le numéro du document",
+          "ExpiryDate": "La date d'expiration de ce/cette [justificatif / pièce d'identité].",
+          "FirstName": "Le ou les prénoms légaux de la personne",
+          "LastName": "Le nom de famille légal de la personne"
+        },
+        "capture_base": "EpXbLB7GirSGAGHtNdPCgyNe9O9vz39VYyPFLTxAzG3s",
+        "digest": "ENxccgerZVwgTJvANtyRqVm9bGOE2NrSdAiH4W1WhVqY",
+        "language": "fr",
+        "type": "spec/overlays/information/1.0"
+      },
+      {
+        "attribute_categories": [],
+        "attribute_labels": {
+          "DocumentNumber": "Passport Number",
+          "ExpiryDate": "Date of expiry",
+          "FirstName": "First name",
+          "LastName": "Family Name"
+        },
+        "capture_base": "EpXbLB7GirSGAGHtNdPCgyNe9O9vz39VYyPFLTxAzG3s",
+        "category_labels": {},
+        "digest": "ERCfI6MOvYad1iqOc-40_bt0nJ4YiV8ChhLVQfXL69W0",
+        "language": "en",
+        "type": "spec/overlays/label/1.0"
+      },
+      {
+        "attribute_information": {
+          "DocumentNumber": "The document number",
+          "ExpiryDate": "The expiry date of this [credential / ID]",
+          "FirstName": "The legal first name(s) of the person",
+          "LastName": "The legal family name of the person"
+        },
+        "capture_base": "EpXbLB7GirSGAGHtNdPCgyNe9O9vz39VYyPFLTxAzG3s",
+        "digest": "Eon0ZMRApUb26_gDIN15bE3xyT9nApLNP-oQ0iiiLCOY",
+        "language": "en",
+        "type": "spec/overlays/information/1.0"
+      },
+      {
+        "attribute_formats": {
+          "DocumentNumber": "[A-Z0-9]{9}",
+          "ExpiryDate": "YYYYMMDD"
+        },
+        "capture_base": "EpXbLB7GirSGAGHtNdPCgyNe9O9vz39VYyPFLTxAzG3s",
+        "digest": "ESsUJLZf-YPBKyas1rdEQrfDzbautswHA6Ea3hNtPK08",
+        "type": "spec/overlays/format/1.0"
+      },
+      {
+        "attribute_standards": {
+          "ExpiryDate": "urn:iso:std:iso:1989"
+        },
+        "capture_base": "EpXbLB7GirSGAGHtNdPCgyNe9O9vz39VYyPFLTxAzG3s",
+        "digest": "EEyjt5ktfkO050Q8E6xa_Dy1jO6_dqseiGwo86VRRNrI",
+        "type": "spec/overlays/standard/1.0"
+      },
+      {
+        "capture_base": "EpXbLB7GirSGAGHtNdPCgyNe9O9vz39VYyPFLTxAzG3s",
+        "credential_help_text": "Exemple de texte d'aide sur les informations d'identification.",
+        "credential_support_url": "https://digitalgovernment.world",
+        "description": "A form to be used for capturing Visual Inspection Zone data for a Digital Passport",
+        "digest": "EAd696F3ahGV4LQim_9FFhzMRZAbml2sF7HYfjHUPp5c",
+        "issuer": "Gouvernment d'El Salvador",
+        "issuer_description": "Gouvernment d'El Salvador",
+        "issuer_url": "https://www.gov.bc.ca/",
+        "language": "fr",
+        "name": "Passport numérique",
+        "type": "spec/overlays/meta/1.0"
+      },
+      {
+        "capture_base": "EpXbLB7GirSGAGHtNdPCgyNe9O9vz39VYyPFLTxAzG3s",
+        "credential_help_text": "Example credential help text.",
+        "credential_support_url": "https://digitalgovernment.world",
+        "description": "A form to be used for capturing Visual Inspection Zone data for a Digital Passport",
+        "digest": "EtJb_AoWx3Zt-VjIIfdI3KOSmErHKyh2Srdmi3nDcALA",
+        "issuer": "Government of El Salvador",
+        "issuer_description": "Government of El Salvador",
+        "issuer_url": "https://www.gov.bc.ca/",
+        "language": "en",
+        "name": "Digital Passport",
+        "type": "spec/overlays/meta/1.0"
+      },
+      {
+        "capture_base": "EpXbLB7GirSGAGHtNdPCgyNe9O9vz39VYyPFLTxAzG3s",
+        "type": "aries/overlays/branding/1.0",
+        "digest": "",
+        "logo": "https://www.pngkey.com/png/detail/139-1391666_un-logo-white-united-nations-logo-white.png",
+        "background_image_slice": "https://github.com/benmoumen/aries-oca-bundles/blob/d5189038b1e3354800703ed7918c77da8589deed/OCABundles/schema/world-credentials/digital-passport/slice.png",
+        "background_image": "https://github.com/benmoumen/aries-oca-bundles/blob/d5189038b1e3354800703ed7918c77da8589deed/OCABundles/schema/world-credentials/digital-passport/background.png",
+        "primary_background_color": "#333333",
+        "secondary_background_color": "#DDDDDD",
+        "primary_attribute": "DocumentNumber",
+        "secondary_attribute": "LastName",
+        "issued_date_attribute": "",
+        "expiry_date_attribute": "ExpiryDate"
+      }
+    ]
+  }
+]
