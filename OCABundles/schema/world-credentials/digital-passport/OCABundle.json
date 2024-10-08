@@ -33,32 +33,6 @@
       {
         "attribute_categories": [],
         "attribute_labels": {
-          "DocumentNumber": "Numéro de passeport",
-          "ExpiryDate": "Date d'expiration",
-          "FirstName": "Prénoms",
-          "LastName": "Nom de famille"
-        },
-        "capture_base": "EpXbLB7GirSGAGHtNdPCgyNe9O9vz39VYyPFLTxAzG3s",
-        "category_labels": {},
-        "digest": "EuljNO5aSBT4kIpQj6yL7CdSyTgYVspVMwQlkbGi7VT0",
-        "language": "fr",
-        "type": "spec/overlays/label/1.0"
-      },
-      {
-        "attribute_information": {
-          "DocumentNumber": "Le numéro du document",
-          "ExpiryDate": "La date d'expiration de ce/cette [justificatif / pièce d'identité].",
-          "FirstName": "Le ou les prénoms légaux de la personne",
-          "LastName": "Le nom de famille légal de la personne"
-        },
-        "capture_base": "EpXbLB7GirSGAGHtNdPCgyNe9O9vz39VYyPFLTxAzG3s",
-        "digest": "ENxccgerZVwgTJvANtyRqVm9bGOE2NrSdAiH4W1WhVqY",
-        "language": "fr",
-        "type": "spec/overlays/information/1.0"
-      },
-      {
-        "attribute_categories": [],
-        "attribute_labels": {
           "DocumentNumber": "Passport Number",
           "ExpiryDate": "Date of expiry",
           "FirstName": "First name",
@@ -83,6 +57,32 @@
         "type": "spec/overlays/information/1.0"
       },
       {
+        "attribute_categories": [],
+        "attribute_labels": {
+          "DocumentNumber": "Numéro de passeport",
+          "ExpiryDate": "Date d'expiration",
+          "FirstName": "Prénoms",
+          "LastName": "Nom de famille"
+        },
+        "capture_base": "EpXbLB7GirSGAGHtNdPCgyNe9O9vz39VYyPFLTxAzG3s",
+        "category_labels": {},
+        "digest": "EuljNO5aSBT4kIpQj6yL7CdSyTgYVspVMwQlkbGi7VT0",
+        "language": "fr",
+        "type": "spec/overlays/label/1.0"
+      },
+      {
+        "attribute_information": {
+          "DocumentNumber": "Le numéro du document",
+          "ExpiryDate": "La date d'expiration de ce/cette [justificatif / pièce d'identité].",
+          "FirstName": "Le ou les prénoms légaux de la personne",
+          "LastName": "Le nom de famille légal de la personne"
+        },
+        "capture_base": "EpXbLB7GirSGAGHtNdPCgyNe9O9vz39VYyPFLTxAzG3s",
+        "digest": "ENxccgerZVwgTJvANtyRqVm9bGOE2NrSdAiH4W1WhVqY",
+        "language": "fr",
+        "type": "spec/overlays/information/1.0"
+      },
+      {
         "attribute_formats": {
           "DocumentNumber": "[A-Z0-9]{9}",
           "ExpiryDate": "YYYYMMDD"
@@ -101,19 +101,6 @@
       },
       {
         "capture_base": "EpXbLB7GirSGAGHtNdPCgyNe9O9vz39VYyPFLTxAzG3s",
-        "credential_help_text": "Exemple de texte d'aide sur les informations d'identification.",
-        "credential_support_url": "https://digitalgovernment.world",
-        "description": "A form to be used for capturing Visual Inspection Zone data for a Digital Passport",
-        "digest": "EAd696F3ahGV4LQim_9FFhzMRZAbml2sF7HYfjHUPp5c",
-        "issuer": "Gouvernment d'El Salvador",
-        "issuer_description": "Gouvernment d'El Salvador",
-        "issuer_url": "https://www.gov.bc.ca/",
-        "language": "fr",
-        "name": "Passport numérique",
-        "type": "spec/overlays/meta/1.0"
-      },
-      {
-        "capture_base": "EpXbLB7GirSGAGHtNdPCgyNe9O9vz39VYyPFLTxAzG3s",
         "credential_help_text": "Example credential help text.",
         "credential_support_url": "https://digitalgovernment.world",
         "description": "A form to be used for capturing Visual Inspection Zone data for a Digital Passport",
@@ -127,11 +114,24 @@
       },
       {
         "capture_base": "EpXbLB7GirSGAGHtNdPCgyNe9O9vz39VYyPFLTxAzG3s",
+        "credential_help_text": "Exemple de texte d'aide sur les informations d'identification.",
+        "credential_support_url": "https://digitalgovernment.world",
+        "description": "A form to be used for capturing Visual Inspection Zone data for a Digital Passport",
+        "digest": "EAd696F3ahGV4LQim_9FFhzMRZAbml2sF7HYfjHUPp5c",
+        "issuer": "Gouvernment d'El Salvador",
+        "issuer_description": "Gouvernment d'El Salvador",
+        "issuer_url": "https://www.gov.bc.ca/",
+        "language": "fr",
+        "name": "Passport numérique",
+        "type": "spec/overlays/meta/1.0"
+      },
+      {
+        "capture_base": "EpXbLB7GirSGAGHtNdPCgyNe9O9vz39VYyPFLTxAzG3s",
         "type": "aries/overlays/branding/1.0",
         "digest": "",
-        "logo": "https://www.pngkey.com/png/detail/139-1391666_un-logo-white-united-nations-logo-white.png",
-        "background_image_slice": "https://github.com/benmoumen/aries-oca-bundles/blob/d5189038b1e3354800703ed7918c77da8589deed/OCABundles/schema/world-credentials/digital-passport/slice.png",
-        "background_image": "https://github.com/benmoumen/aries-oca-bundles/blob/d5189038b1e3354800703ed7918c77da8589deed/OCABundles/schema/world-credentials/digital-passport/background.png",
+        "logo": "https://raw.githubusercontent.com/benmoumen/aries-oca-bundles/main/OCABundles/schema/world-credentials/digital-passport/logo.svg",
+        "background_image_slice": "https://raw.githubusercontent.com/benmoumen/aries-oca-bundles/main/OCABundles/schema/world-credentials/digital-passport/slice.png",
+        "background_image": "https://raw.githubusercontent.com/benmoumen/aries-oca-bundles/main/OCABundles/schema/world-credentials/digital-passport/background.png",
         "primary_background_color": "#333333",
         "secondary_background_color": "#DDDDDD",
         "primary_attribute": "DocumentNumber",
