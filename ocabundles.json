@@ -1,4 +1,3 @@
 {
-   "8xN1VETHGo1Va6XQ7CPrkh:2:DigitalPassportCredential:0.1": { "path": "OCABundles/schema/palestinian-authority/ministry-economy/digital-passport/OCABundle.json", "sha256": "71e58c060ba2080704c96594407b01244c8404dadba36ecf6158a54f9c63def2" },
-   "8xN1VETHGo1Va6XQ7CPrkh:3:CL:16:ePassport": { "path": "OCABundles/schema/palestinian-authority/ministry-economy/digital-passport/OCABundle.json", "sha256": "71e58c060ba2080704c96594407b01244c8404dadba36ecf6158a54f9c63def2" }
+   "UNPmGrMhf8SuQs3FSgZVEo:3:CL:23:certified-passport": { "path": "OCABundles/schema/palestinian-authority/ministry-economy/digital-passport/OCABundle.json", "sha256": "d7467faeff2eee09191f3aa97023701d696b28dafacd448dff83f39c60368674" }
 }

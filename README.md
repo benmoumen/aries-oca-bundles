@@ -29,7 +29,13 @@ docker build --platform linux/amd64 -t oca-xls-parser .
 To run the Docker container and generate the OCA Bundle, use the following command:
 
 ```sh
-docker run --platform linux/amd64 --rm -v ./OCABundles/schema/unctad/[schema-name]:/data oca-xls-parser -x OCA.xlsx branding.json
+docker run --platform linux/amd64 --rm -v ./OCABundles/schema/[issuer]/[sub-issuer(optional)]/[schema-name]:/data oca-xls-parser -x OCA.xlsx branding.json
+```
+
+Example:
+
+```sh
+docker run --platform linux/amd64 --rm -v ./OCABundles/schema/palestinian-authority/ministry-economy/digital-passport:/data oca-xls-parser -x OCA.xlsx branding.json
 ```
 
 This command mounts the `./OCABundles/schema/[issuer]/[sub-issuer(optional)]/[schema-name]` directory to the `/data` directory inside the container and runs the `oca-xls-parser` image with the specified Excel and JSON files.

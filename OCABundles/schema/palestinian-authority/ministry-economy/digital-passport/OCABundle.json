@@ -60,56 +60,6 @@
       {
         "attribute_categories": [],
         "attribute_labels": {
-          "dateOfBirth": "Date de Naissance",
-          "expirationDate": "Attestation valide jusqu'à",
-          "gender": "Genre",
-          "givenName": "Prénoms",
-          "issuanceDate": "Attestation valide du",
-          "issuer": "Autorité Émettrice",
-          "nationality": "Nationalité",
-          "passportExpiryDate": "Date d'Expiration",
-          "passportIssuanceDate": "Date d'Émission",
-          "passportNumber": "Numéro de passeport",
-          "photo.contentUrl": "URL de la Photo",
-          "photo.format": "Format de la Photo",
-          "photo.hash": "Hachage de la Photo",
-          "placeOfBirth.city": "Ville de Naissance",
-          "placeOfBirth.country": "Pays de Naissance",
-          "surname": "Nom de famille"
-        },
-        "capture_base": "Es9bUnYGTmX8go640jpoiG90QqjZkrPdheuCxUOWDLMw",
-        "category_labels": {},
-        "digest": "EpxK5D-IPjgB0l6VpMbzsFf7uthtcL2oTexEimjbECiw",
-        "language": "fr",
-        "type": "spec/overlays/label/1.0"
-      },
-      {
-        "attribute_information": {
-          "dateOfBirth": "La date légale de naissance de la personne",
-          "expirationDate": "La date jusqu'à laquelle cette attestation de passeport vérifié est valide",
-          "gender": "Le genre légal de la personne",
-          "givenName": "Le ou les prénoms légaux de la personne",
-          "issuanceDate": "La date à laquelle cette attestation de passeport vérifié a été émise",
-          "issuer": "L'organisation ou l'autorité gouvernementale émettant le passeport",
-          "nationality": "La nationalité de la personne",
-          "passportExpiryDate": "La date d'expiration de ce passeport",
-          "passportIssuanceDate": "La date d'émission de ce passeport ou ID",
-          "passportNumber": "Le numéro du document",
-          "photo.contentUrl": "L'URL où la photo peut être consultée",
-          "photo.format": "Le format de la photo (par ex., JPEG, PNG)",
-          "photo.hash": "Le hachage de la photo à des fins de vérification",
-          "placeOfBirth.city": "La ville où la personne est née",
-          "placeOfBirth.country": "Le pays où la personne est née",
-          "surname": "Le nom de famille légal de la personne"
-        },
-        "capture_base": "Es9bUnYGTmX8go640jpoiG90QqjZkrPdheuCxUOWDLMw",
-        "digest": "EmDmqBw9wQShu7w9u531gwXq21WwO6UvoOYB08b50ufs",
-        "language": "fr",
-        "type": "spec/overlays/information/1.0"
-      },
-      {
-        "attribute_categories": [],
-        "attribute_labels": {
           "dateOfBirth": "Date of Birth",
           "expirationDate": "Attestation Valid To",
           "gender": "Gender",
@@ -158,6 +108,56 @@
         "type": "spec/overlays/information/1.0"
       },
       {
+        "attribute_categories": [],
+        "attribute_labels": {
+          "dateOfBirth": "Date de Naissance",
+          "expirationDate": "Attestation valide jusqu'à",
+          "gender": "Genre",
+          "givenName": "Prénoms",
+          "issuanceDate": "Attestation valide du",
+          "issuer": "Autorité Émettrice",
+          "nationality": "Nationalité",
+          "passportExpiryDate": "Date d'Expiration",
+          "passportIssuanceDate": "Date d'Émission",
+          "passportNumber": "Numéro de passeport",
+          "photo.contentUrl": "URL de la Photo",
+          "photo.format": "Format de la Photo",
+          "photo.hash": "Hachage de la Photo",
+          "placeOfBirth.city": "Ville de Naissance",
+          "placeOfBirth.country": "Pays de Naissance",
+          "surname": "Nom de famille"
+        },
+        "capture_base": "Es9bUnYGTmX8go640jpoiG90QqjZkrPdheuCxUOWDLMw",
+        "category_labels": {},
+        "digest": "EpxK5D-IPjgB0l6VpMbzsFf7uthtcL2oTexEimjbECiw",
+        "language": "fr",
+        "type": "spec/overlays/label/1.0"
+      },
+      {
+        "attribute_information": {
+          "dateOfBirth": "La date légale de naissance de la personne",
+          "expirationDate": "La date jusqu'à laquelle cette attestation de passeport vérifié est valide",
+          "gender": "Le genre légal de la personne",
+          "givenName": "Le ou les prénoms légaux de la personne",
+          "issuanceDate": "La date à laquelle cette attestation de passeport vérifié a été émise",
+          "issuer": "L'organisation ou l'autorité gouvernementale émettant le passeport",
+          "nationality": "La nationalité de la personne",
+          "passportExpiryDate": "La date d'expiration de ce passeport",
+          "passportIssuanceDate": "La date d'émission de ce passeport ou ID",
+          "passportNumber": "Le numéro du document",
+          "photo.contentUrl": "L'URL où la photo peut être consultée",
+          "photo.format": "Le format de la photo (par ex., JPEG, PNG)",
+          "photo.hash": "Le hachage de la photo à des fins de vérification",
+          "placeOfBirth.city": "La ville où la personne est née",
+          "placeOfBirth.country": "Le pays où la personne est née",
+          "surname": "Le nom de famille légal de la personne"
+        },
+        "capture_base": "Es9bUnYGTmX8go640jpoiG90QqjZkrPdheuCxUOWDLMw",
+        "digest": "EmDmqBw9wQShu7w9u531gwXq21WwO6UvoOYB08b50ufs",
+        "language": "fr",
+        "type": "spec/overlays/information/1.0"
+      },
+      {
         "attribute_formats": {
           "dateOfBirth": "YYYYMMDD",
           "expirationDate": "YYYYMMDD",
@@ -187,12 +187,12 @@
         "credential_help_text": "Pour obtenir cette attestation, faites une demande auprès de l’agence émettrice autorisée. Utilisez-la pour vérifier votre identité en toute sécurité dans des contextes numériques et physiques nécessitant des informations de passeport.",
         "credential_support_url": "https://digitalgovernment.world",
         "description": "Fournit une vérification numérique des informations de passeport pour confirmer l’identité du titulaire.",
-        "digest": "E-f6FNmpylf8spz7c0DeW3FNRi-EIAAnyCbfcU1Smvkg",
+        "digest": "E_5xSidldl1_mG_TTuUTop5IxiF-z2XLesOrBcVKQlO4",
         "issuer": "Autorité Palestinienne",
         "issuer_description": "Gouvernement de Palestine",
         "issuer_url": "http://palestine.eregistrations.org",
         "language": "fr",
-        "name": "Passport numérique",
+        "name": "Certificat de Passeport Numérique",
         "type": "spec/overlays/meta/1.0"
       },
       {
@@ -200,12 +200,12 @@
         "credential_help_text": "To obtain this credential, apply through the authorized issuing agency. Use it to verify your identity securely in digital and physical settings where passport details are required.",
         "credential_support_url": "https://digitalgovernment.world",
         "description": "Provides a digital verification of passport details to confirm the holder’s identity.",
-        "digest": "E1STl6hTvNopl_jPx7decnvSVkXS9IyfVZTJqJx4EPOk",
+        "digest": "Et8H3NZZeih2N-DN94dWSv5P6t-m3el8w8t_w03HmGVI",
         "issuer": "Palestinian Authority",
         "issuer_description": "Government of Palestine",
         "issuer_url": "http://palestine.eregistrations.org",
         "language": "en",
-        "name": "Digital Passport",
+        "name": "Digital Passport Certificate",
         "type": "spec/overlays/meta/1.0"
       },
       {
