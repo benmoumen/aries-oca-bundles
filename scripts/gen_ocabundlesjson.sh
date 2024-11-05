@@ -61,7 +61,7 @@ processBundle() {
         TYPE="credential"
     fi
     for id in ${ID}; do
-        processed_id=$(echo -n ${id} | sed "s/~/ /g")
+        processed_id=$(echo -n ${id} | sed "s/~/ /g" | sed 's/[[:space:]]*$//')
         echo "   \"${processed_id}\": { \"path\": \"${RELPATH}/${BUNDLE_PATH}\", \"sha256\": \"${SHASUM}\" }," >>${OCAIDSJSON}
         echo "{ \"id\": \"${processed_id}\", \"org\": \"${ORG}\", \"name\": \"${NAME}\", \"desc\": \"${DESC}\", \"type\": \"${TYPE}\", \"ocabundle\": \"${RELPATH}/${BUNDLE_PATH}\", \"shasum\": \"${SHASUM}\" }," >>${OCALISTJSON}
     done
@@ -75,7 +75,7 @@ insertBundleiframe () {
     encoded_id=$(echo -n ${id} | sed "s/~/ /g" | jq -sRr @uri)
     # We're scanning the real OCABundles file, but want to update the copied files in the docs folder
     FILE=${thisDir}/docs/$RELPATH/README.md
-    sed -e "/## Authorization/i## Credential Appearance\n\n\\<iframe src=\\"https://bcgov.github.io/aries-oca-explorer/identifier/${encoded_id}?view=readonly\\" width=\\"100%\\" height=\\"800\\" frameborder=\\"0\\"\\>\\</iframe\\>\n" $FILE >$FILE.tmp
+    sed -e "/## Authorization/i## Credential Appearance\n\n\\<iframe src=\\"https://benmoumen.github.io/aries-oca-explorer/identifier/${encoded_id}?view=readonly\\" width=\\"100%\\" height=\\"800\\" frameborder=\\"0\\"\\>\\</iframe\\>\n" $FILE >$FILE.tmp
     mv $FILE.tmp $FILE 
 }
 
