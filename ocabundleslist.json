@@ -1,0 +1,4 @@
+[
+{ "id": "8xN1VETHGo1Va6XQ7CPrkh:2:DigitalPassportCredential:0.1", "org": "Palestinian Authority / Ministry of Economy", "name": "Digital Passport Credential", "desc": "A schema for a digital passport credential issued by the Palestinian Authority Ministry of Economy.", "type": "schema", "ocabundle": "OCABundles/schema/palestinian-authority/ministry-economy/digital-passport/OCABundle.json", "shasum": "71e58c060ba2080704c96594407b01244c8404dadba36ecf6158a54f9c63def2" },
+{ "id": "8xN1VETHGo1Va6XQ7CPrkh:3:CL:16:ePassport", "org": "Palestinian Authority / Ministry of Economy", "name": "Digital Passport Credential", "desc": "A schema for a digital passport credential issued by the Palestinian Authority Ministry of Economy.", "type": "schema", "ocabundle": "OCABundles/schema/palestinian-authority/ministry-economy/digital-passport/OCABundle.json", "shasum": "71e58c060ba2080704c96594407b01244c8404dadba36ecf6158a54f9c63def2" }
+]
