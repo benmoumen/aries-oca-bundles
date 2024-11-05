@@ -11,7 +11,7 @@ An Aries holder (wallet) or verifier agent **MUST** be pre-configured with the
 following URL (referenced as `<URL>` in the guidance that follows) for accessing
 the raw JSON files published as part of this registry:
 
-- `https://bcgov.github.io/aries-oca-bundles/`
+- `https://benmoumen.github.io/aries-oca-bundles/`
 
 Here is how the resources published on this site are to be used by an Aries Agent:
 
@@ -54,5 +54,5 @@ are re-calculated as part of the [ocabundles.json] generation process executed
 every time the registry is updated via a merged pull request to the
 [Aries OCA Bundles] GitHub repository, the source of this registry.
 
-[Aries OCA Bundles]: https://bcgov.github.io/aries-oca-bundles/
+[Aries OCA Bundles]: https://benmoumen.github.io/aries-oca-bundles/
 [ocabundles.json]: ../ocabundles.json

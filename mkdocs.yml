@@ -1,8 +1,8 @@
 site_name: Aries OCA Bundles
 # Comment out the site_url for local testing, uncomment when pushing to the repo
-site_url: https://bcgov.github.io/aries-oca-bundles/
-repo_name: bcgov/aries-oca-bundles
-repo_url: https://github.com/bcgov/aries-oca-bundles
+site_url: https://benmoumen.github.io/aries-oca-bundles/
+repo_name: benmoumen/aries-oca-bundles
+repo_url: https://github.com/benmoumen/aries-oca-bundles
 theme:
   name: material
   custom_dir: overrides
@@ -78,10 +78,6 @@ plugins:
 nav:
 - Welcome: 
   - Read Me: README.md
-- Governance:
-  - Repository Governance: governance/GOVERNANCE.md
-  - License: governance/LICENSE.md
-  - Maintainers: governance/MAINTAINERS.md
 - Adding Your OCA Bundle:
   - Contributing: contributing/CONTRIBUTING.md
   - Creating OCA Bundles: contributing/OCABundleCreation.md
@@ -90,22 +86,6 @@ nav:
   - OCA Explorer: oca-explorer/README.md
 - OCA Bundles:
     - Credential OCA Bundles:
-      - BC Gov:
-        - OCABundles/schema/bcgov-digital-trust/business-card/README.md
-        - OCABundles/schema/bcgov-digital-trust/business-card-showcase/README.md
-        - LCRB:
-          - OCABundles/schema/bcgov-digital-trust/LCRB/selling-it-right-showcase/README.md
-          - OCABundles/schema/bcgov-digital-trust/LCRB/serving-it-right-showcase/README.md
-          - OCABundles/schema/bcgov-digital-trust/LCRB/special-event-server-showcase/README.md
-        - OCABundles/schema/bcgov-digital-trust/member-card/README.md
-        - OCABundles/schema/bcgov-digital-trust/member-card-showcase/README.md
-        - BC Mines Act Permit:
-          - OCABundles/schema/bcgov-digital-trust/mines-act-permit/0.3/README.md
-          - OCABundles/schema/bcgov-digital-trust/mines-act-permit/1.1.1/README.md
-        - OCABundles/schema/bcgov-digital-trust/person/README.md
-        - OCABundles/schema/bcgov-digital-trust/person-showcase/README.md
-        - OCABundles/schema/bcgov-digital-trust/pilot/README.md
-        - OCABundles/schema/bcgov-digital-trust/student-card/README.md
-        - OCABundles/schema/bcgov-digital-trust/unverified-person/README.md
-      - MCN, Government of Quebec:
-        - OCABundles/schema/qc_anig_demo/Attestation_numérique_didentité_gouvernemental/README.md
+      - Palestinian Authority:
+        - Ministry of National Economy:
+          - OCABundles/schema/palestinian-authority/ministry-economy/digital-passport/README.md

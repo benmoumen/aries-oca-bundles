@@ -7,9 +7,9 @@ Creating an OCA Bundle consists of multiple steps.
 - Creating the OCA Source data, usually in Excel and JSON.
 - Generating an OCA Bundle from the OCA Source Data using a script in this repository.
   - The prerequisites for the script are a tad painful. We're hoping to reduce
-      the complexity of the script.
+    the complexity of the script.
 
-[Aries OCA Bundles]: https://github.com/bcgov/aries-oca-bundles
+[Aries OCA Bundles]: https://github.com/benmoumen/aries-oca-bundles
 
 We'll cover the steps in the following sections.
 
@@ -24,7 +24,7 @@ few levels.
 placed. That name may soon change (`credential` is a better name...), and in the
 future, a parallel folder might be added for presentation request OCA Bundles.
 
-Below `schema` is a list of top level credential issuers (e.g., BC Gov), and
+Below `schema` is a list of top level credential issuers, and
 within each, the sub-issuers (to any depth). As you add your OCA Bundle, feel
 free to add as many layers of (sub-)issuers as appropriate. For example, you might include:
 
@@ -53,17 +53,17 @@ described in the subsequent sections.
 
 ## Creating the OCA Bundle README.md File
 
-* **README.md**: **MUST** be present and **MUST** contain the information outlined
+- **README.md**: **MUST** be present and **MUST** contain the information outlined
   below in the [README File Content](#readme-file-content) section of this document.
-* **OCABundle.json**: **MUST** be present and **MUST** contain the OCA Bundle
+- **OCABundle.json**: **MUST** be present and **MUST** contain the OCA Bundle
   for the schema or credential definition.
-* **<OCASourceExcel\>.xlsx**: (optional) An Excel OCA Source file for the OCA Bundle.
-* **branding.json**: (optional) A JSON file containing the source content for
+- **<OCASourceExcel\>.xlsx**: (optional) An Excel OCA Source file for the OCA Bundle.
+- **branding.json**: (optional) A JSON file containing the source content for
   the OCA for Aries Branding overlay.
-* **testdata.csv**: (optional) A CSV file containing one or more sample data
+- **testdata.csv**: (optional) A CSV file containing one or more sample data
   records.
-* **Other files**: (optional) Other files related to the OCA Bundle, such as the
-images used in the branding.json file.
+- **Other files**: (optional) Other files related to the OCA Bundle, such as the
+  images used in the branding.json file.
 
 The pull request will be reviewed according to the lightweight [governance]
 process and merged (or not) into the repository.
@@ -122,32 +122,31 @@ the OCA Bundle.
 - `<TITLE>` **MUST** be the name of the credential type. No other line in the
   file can have a single `#` prefix.
 - `<DESCRIPTION>` is extracted for display by tools for processing this
-repository (such as the [OCA Explorer]) and should describe the type of
-credential to which the OCA Bundle applies.
+  repository (such as the [OCA Explorer]) and should describe the type of
+  credential to which the OCA Bundle applies.
 - `<ORGANIZATION>` is extracted for display by tools for processing this
-repository (such as the [OCA Explorer]) and is the name of the organization
-that submitted the OCA Bundle.
+  repository (such as the [OCA Explorer]) and is the name of the organization
+  that submitted the OCA Bundle.
 - `<CONTACT EMAIL ADDRESS>` is an email address for the primary contact
-for the OCA Bundle. The address may for a person, or better, a group
-contact withing the `<ORGANIZATION>`.
+  for the OCA Bundle. The address may for a person, or better, a group
+  contact withing the `<ORGANIZATION>`.
 - `<SCHEMA ID or CRED DEF ID>` are identifiers for objects to which the
-OCA Bundles applies. There can be multiple lines in the table, each with
-a different identifier.
+  OCA Bundles applies. There can be multiple lines in the table, each with
+  a different identifier.
 - `<LEDGER>` is optional. It identifies the ledger on which the object
-identified by the object resides. It should be in the form
-<network>[:<instance>] as defined in the [did-indy specification for
-`namespace`](https://hyperledger.github.io/indy-did-method/#indy-did-method-identifiers)
--- e.g., `candy:dev` or `sovrin`. The value is useful when the `<SCHEMA ID or
+  identified by the object resides. It should be in the form
+  <network>[:<instance>] as defined in the [did-indy specification for
+  `namespace`](https://hyperledger.github.io/indy-did-method/#indy-did-method-identifiers)
+  -- e.g., `candy:dev` or `sovrin`. The value is useful when the `<SCHEMA ID or
 CRED DEF ID>` is unqualified (such as with legacy Indy identifiers) such that
-the precise location of the object is not known.
+  the precise location of the object is not known.
 - `<URL>` is optional and is a plain (non-Markdown) link to a ledger browser
   instance of the object, such as to a transaction on
   [https://indyscan.io](https://indyscan.io),
-  [http://test.bcovrin.vonx.io:3707](http://test.bcovrin.vonx.io:3707) or
-  [https://candyscan.idlab.org/](https://candyscan.idlab.org/)
+  [https://indy.govchain.technology](https://indy.govchain.technology)
 - `<NAME>` is the name of a person authorized to update the OCA Bundle and
-related data. There may be multiple rows in the markdown table to name multiple
-people.
+  related data. There may be multiple rows in the markdown table to name multiple
+  people.
 - `<GITHUB ID>` is the GitHub ID of the named person.
 - `<EMAIL ADDRESS>` is the email address of the named person
 
@@ -209,7 +208,7 @@ The following is how to create an OCA Source spreadsheet.
 
 - Make a copy of the latest [OCA Template] from the [Human Colossus Foundation].
 - Fill in the "Main" tab with the attributes from the schema, completing the
-relevant columns for each attribute. Current columns to complete:
+  relevant columns for each attribute. Current columns to complete:
 - CB-CL: Classification
 - CB-AN: Attribute Name
 - CB-AT: Attribute Type
@@ -222,8 +221,8 @@ relevant columns for each attribute. Current columns to complete:
 - As needed, populate the columns for "dateint" and "Unix Time" attributes as indicated in the [Aries Specific Dates in the OCA Formats Overlay] section of RFC 0755.
 - Rename the sample language tab (`en`) to one of the language or language-country that as an issuer, you want to support.
 - Fill in the data in columns after C (which is automatically populated from
-the `Main` tab) for the first language as appropriate. In most cases only
-the "Label" and "Information" columns need be populated.
+  the `Main` tab) for the first language as appropriate. In most cases only
+  the "Label" and "Information" columns need be populated.
 - Populate column A and B as follows:
 - In column A (`OL-MN: Meta [Attribute Name]`), add the values:
   - "name"
@@ -247,19 +246,19 @@ and it is fully described in the [OCA for Aries Style Guide RFC].
 
 ```json
 [
-    {
-        "logo": "",
-        "background_image_slice": "",
-        "background_image": "",
-        "primary_background_color": "#32674e",
-        "secondary_background_color": "#32674e",
-        "capture_base": "E75sopl65qnoZRwjQQ0FjWGemLlOXcXtanhScZ2CloJY",
-        "digest": "EBQbQEV6qSEGDzGLj1CqT4e6yzESjPimF-Swmyltw5jU",
-        "expiry_date_attribute": "",
-        "primary_attribute": "",
-        "secondary_attribute": "",
-        "type": "aries/overlays/branding/1.0"
-    }
+  {
+    "logo": "",
+    "background_image_slice": "",
+    "background_image": "",
+    "primary_background_color": "#32674e",
+    "secondary_background_color": "#32674e",
+    "capture_base": "E75sopl65qnoZRwjQQ0FjWGemLlOXcXtanhScZ2CloJY",
+    "digest": "EBQbQEV6qSEGDzGLj1CqT4e6yzESjPimF-Swmyltw5jU",
+    "expiry_date_attribute": "",
+    "primary_attribute": "",
+    "secondary_attribute": "",
+    "type": "aries/overlays/branding/1.0"
+  }
 ]
 ```
 
@@ -274,7 +273,7 @@ required) is to put the images in the same folder as the OCA Source Excel and
 branding.json files, and to use the GitHub "raw" URL to reference the data, such
 as:
 
-`https://raw.githubusercontent.com/hyperledger/aries-oca-bundles/main/OCABundles/schema/bcgov-digital-trust/student-card/best-bc-logo.png`
+`https://raw.githubusercontent.com/benmoumen/aries-oca-bundles/main/OCABundles/schema/palestinian-authority/ministry-economy/digital-passport/logo.png`
 
 If the images are relatively small, you can inline the images using the format `data:image/png;base64,<base64 data>`.
 
