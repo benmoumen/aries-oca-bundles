@@ -9,7 +9,6 @@ The content of this repository is published on GitHub pages at [https://benmoume
 - what Aries OCA Bundles are,
 - how to use the OCA Bundles published from here,
 - how to publish your own OCA Bundles, and
-- how the OCA Bundle repository governance works,
 
 The full source content for the OCA Bundles published from this repo are in the `OCABundles` repository.
 

@@ -65,11 +65,6 @@ described in the subsequent sections.
 - **Other files**: (optional) Other files related to the OCA Bundle, such as the
   images used in the branding.json file.
 
-The pull request will be reviewed according to the lightweight [governance]
-process and merged (or not) into the repository.
-
-[governance]: ../governance/GOVERNANCE.md
-
 ### README File Content
 
 The README.md file for the OCA Bundle **MUST** be present and **MUST** include

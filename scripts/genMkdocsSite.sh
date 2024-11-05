@@ -4,8 +4,6 @@ MKDOCS=mkdocs.yml
 
 if [ "$1" == "clean" ]; then
    # Clean out the updates made in the docs folder by this script
-   rm docs/governance/MAINTAINERS.md
-   rm docs/governance/LICENSE.md
    rm -rf docs/OCABundles
    rm docs/ocabundles.json
    rm docs/ocabundleslist.json
@@ -45,12 +43,6 @@ if [ ! -d "OCABundles" ]; then
 fi
 
 # echo Building pages for the Aries OCA Bundles website
-
-# Copy MD files that need to be in the root folder to the doc folder
-sed -e 's#docs/governance/GOVERNANCE.md#../governance/GOVERNANCE.md#' \
-    -e 's#docs/contributing/CONTRIBUTING.md#../contributing/CONTRIBUTING.md#' \
-    MAINTAINERS.md >docs/governance/MAINTAINERS.md
-cp LICENSE docs/governance/LICENSE.md
 
 # Remove the OCA Bundles Navigation from the mkdocs.yml file, and comment out the site url
 # The site_url MUST be uncomment again before commiting. Done as part of the "CLEAN" above.
