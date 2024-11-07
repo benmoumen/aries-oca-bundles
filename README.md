@@ -45,7 +45,7 @@ This command mounts the `./OCABundles/schema/[issuer]/[sub-issuer(optional)]/[sc
 This script generates the `ocabundles.json` and `ocabundleslist.json` files. To execute the script, run the following command in your terminal:
 
 ```sh
-./scripts/gen_ocabundlesjson.sh
+sudo ./scripts/gen_ocabundlesjson.sh
 ```
 
 ## README Bundle Template
