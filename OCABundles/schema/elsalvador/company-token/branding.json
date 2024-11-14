@@ -1,0 +1,16 @@
+[
+  {
+    "capture_base": "",
+    "type": "aries/overlays/branding/1.0",
+    "digest": "",
+    "logo": "https://raw.githubusercontent.com/benmoumen/aries-oca-bundles/main/OCABundles/schema/elsalvador/company-token/logo.png",
+    "background_image_slice": "https://raw.githubusercontent.com/benmoumen/aries-oca-bundles/main/OCABundles/schema/elsalvador/company-token/background-slice.jpg",
+    "background_image": "https://raw.githubusercontent.com/benmoumen/aries-oca-bundles/main/OCABundles/schema/elsalvador/company-token/background.jpg",
+    "primary_background_color": "#0023F5",
+    "secondary_background_color": "rgb(0, 0, 0)",
+    "primary_attribute": "associatedCompany",
+    "secondary_attribute": "shareholderName",
+    "issued_date_attribute": "",
+    "expiry_date_attribute": ""
+  }
+]

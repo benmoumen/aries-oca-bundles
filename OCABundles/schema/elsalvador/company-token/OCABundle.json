@@ -1,0 +1,170 @@
+[
+  {
+    "capture_base": {
+      "attributes": {
+        "associatedCompany": "Text",
+        "balance": "Numeric",
+        "blockchainNetwork": "Text",
+        "companyRegistrationNumber": "Text",
+        "idDocumentNumber": "Text",
+        "registrar": "Text",
+        "shareholderName": "Text",
+        "tokenId": "Text",
+        "tokenMetadata": "Text",
+        "walletAddress": "Text"
+      },
+      "classification": "",
+      "digest": "EV4lT4VJZQKEe7TtgPtQ296EUvTohWBGhHkHiAUpXzRI",
+      "flagged_attributes": [
+        "shareholderName",
+        "idDocumentNumber"
+      ],
+      "type": "spec/capture_base/1.0"
+    },
+    "overlays": [
+      {
+        "attribute_character_encoding": {
+          "associatedCompany": "utf-8",
+          "balance": "utf-8",
+          "blockchainNetwork": "utf-8",
+          "companyRegistrationNumber": "utf-8",
+          "idDocumentNumber": "utf-8",
+          "registrar": "utf-8",
+          "shareholderName": "utf-8",
+          "tokenId": "utf-8",
+          "tokenMetadata": "utf-8",
+          "walletAddress": "utf-8"
+        },
+        "capture_base": "EV4lT4VJZQKEe7TtgPtQ296EUvTohWBGhHkHiAUpXzRI",
+        "default_character_encoding": "utf-8",
+        "digest": "EVf5NFJh7ZeunsvizMuiL8SSpqAY932tvBw6RkOFt_Hw",
+        "type": "spec/overlays/character_encoding/1.0"
+      },
+      {
+        "attribute_categories": [],
+        "attribute_labels": {
+          "associatedCompany": "Nom de l'entreprise",
+          "balance": "Nombre d'actions",
+          "blockchainNetwork": "Réseau Blockchain",
+          "companyRegistrationNumber": "Numéro d'Enregistrement de l'Entreprise",
+          "idDocumentNumber": "Numéro de Document d'Identité",
+          "registrar": "Registraire",
+          "shareholderName": "Nom de l'Actionnaire",
+          "tokenId": "ID de Jeton",
+          "tokenMetadata": "Métadonnées de Jeton",
+          "walletAddress": "Adresse de Portefeuille"
+        },
+        "capture_base": "EV4lT4VJZQKEe7TtgPtQ296EUvTohWBGhHkHiAUpXzRI",
+        "category_labels": {},
+        "digest": "ExUBC-ZPHR2oI76o40H2F42tDVseuAEsL2j_XcDKdVXk",
+        "language": "fr",
+        "type": "spec/overlays/label/1.0"
+      },
+      {
+        "attribute_information": {
+          "associatedCompany": "Entreprise associée à l'actionnaire",
+          "balance": "Nombre de jetons détenus par l'actionnaire",
+          "blockchainNetwork": "Réseau blockchain sur lequel les jetons sont émis",
+          "companyRegistrationNumber": "Numéro d'enregistrement de l'entreprise",
+          "idDocumentNumber": "Numéro du document d'identité de l'actionnaire",
+          "registrar": "Entité responsable de l'enregistrement de l'entreprise",
+          "shareholderName": "Nom légal de l'actionnaire",
+          "tokenId": "Identifiant unique pour le jeton émis",
+          "tokenMetadata": "Données supplémentaires liées au jeton",
+          "walletAddress": "Adresse de portefeuille blockchain de l'actionnaire"
+        },
+        "capture_base": "EV4lT4VJZQKEe7TtgPtQ296EUvTohWBGhHkHiAUpXzRI",
+        "digest": "Eitf4z6tcjcZNNKTDhyPJxESztHYCzQ6s-WCKqNaf2Mo",
+        "language": "fr",
+        "type": "spec/overlays/information/1.0"
+      },
+      {
+        "attribute_categories": [],
+        "attribute_labels": {
+          "associatedCompany": "Associated Company",
+          "balance": "Token Balance",
+          "blockchainNetwork": "Blockchain Network",
+          "companyRegistrationNumber": "Company Registration Number",
+          "idDocumentNumber": "ID Document Number",
+          "registrar": "Registrar",
+          "shareholderName": "Shareholder Name",
+          "tokenId": "Token ID",
+          "tokenMetadata": "Token Metadata",
+          "walletAddress": "Wallet Address"
+        },
+        "capture_base": "EV4lT4VJZQKEe7TtgPtQ296EUvTohWBGhHkHiAUpXzRI",
+        "category_labels": {},
+        "digest": "EYRmFyS3GabBqgLZFMuD9v2A3VZrwjnhwS_ftzZ_kdX4",
+        "language": "en",
+        "type": "spec/overlays/label/1.0"
+      },
+      {
+        "attribute_information": {
+          "associatedCompany": "The legal name of the company",
+          "balance": "The balance of tokens held by the shareholder",
+          "blockchainNetwork": "The blockchain network on which the tokens are issued",
+          "companyRegistrationNumber": "The registration number of the company",
+          "idDocumentNumber": "The identification document number of the shareholder",
+          "registrar": "The entity responsible for registering the company",
+          "shareholderName": "The legal name of the shareholder",
+          "tokenId": "The unique identifier for the issued token",
+          "tokenMetadata": "Additional data related to the token",
+          "walletAddress": "The blockchain wallet address of the shareholder"
+        },
+        "capture_base": "EV4lT4VJZQKEe7TtgPtQ296EUvTohWBGhHkHiAUpXzRI",
+        "digest": "E0tV2XaTgz6xQQBMn_TR0DJmu1ui8z7LR_RK_Yu6PXB0",
+        "language": "en",
+        "type": "spec/overlays/information/1.0"
+      },
+      {
+        "attribute_formats": {
+          "companyRegistrationNumber": "[A-Z0-9]+",
+          "idDocumentNumber": "[A-Z0-9]+"
+        },
+        "capture_base": "EV4lT4VJZQKEe7TtgPtQ296EUvTohWBGhHkHiAUpXzRI",
+        "digest": "EZhurqftYpnm7cua23XXvVAHy6ENLwtWvGBR9XZBaeV8",
+        "type": "spec/overlays/format/1.0"
+      },
+      {
+        "capture_base": "EV4lT4VJZQKEe7TtgPtQ296EUvTohWBGhHkHiAUpXzRI",
+        "credential_help_text": "Pour obtenir ce credential, enregistrez votre entreprise et les détails des actionnaires auprès du Registre des Entreprises. Utilisez-le pour vérifier votre statut d'actionnaire et la propriété de vos jetons dans des contextes numériques et physiques.",
+        "credential_support_url": "https://businessregistry.elsalvador.gov/support",
+        "description": "Fournit une vérification numérique des détails des actionnaires, de la propriété des jetons et des informations associées à l'entreprise.",
+        "digest": "EKVa0aIA315PbSkjNTrOOrVFYWGDRKLEtdNrjKMkC8FE",
+        "issuer": "Registre des Entreprises du Salvador",
+        "issuer_description": "Registre Officiel des Entreprises du Salvador",
+        "issuer_url": "https://businessregistry.elsalvador.gov",
+        "language": "fr",
+        "name": "Token de Propriété d'Entreprise",
+        "type": "spec/overlays/meta/1.0"
+      },
+      {
+        "capture_base": "EV4lT4VJZQKEe7TtgPtQ296EUvTohWBGhHkHiAUpXzRI",
+        "credential_help_text": "To obtain this credential, register your company and shareholder details with the Business Registry. Use it to verify your shareholder status and token ownership in both digital and physical settings.",
+        "credential_support_url": "https://businessregistry.elsalvador.gov/support",
+        "description": "Provides a digital verification of shareholder details, token ownership, and associated company information.",
+        "digest": "E9vGDVHZU7pS5UrbqzzBhV-9QZ3TPrtOH4jXOx7-LUZY",
+        "issuer": "El Salvador Business Registry",
+        "issuer_description": "Official Business Registry of El Salvador",
+        "issuer_url": "https://businessregistry.elsalvador.gov",
+        "language": "en",
+        "name": "Company Ownership Token Credential",
+        "type": "spec/overlays/meta/1.0"
+      },
+      {
+        "capture_base": "EV4lT4VJZQKEe7TtgPtQ296EUvTohWBGhHkHiAUpXzRI",
+        "type": "aries/overlays/branding/1.0",
+        "digest": "",
+        "logo": "https://raw.githubusercontent.com/benmoumen/aries-oca-bundles/main/OCABundles/schema/elsalvador/company-token/logo.png",
+        "background_image_slice": "https://raw.githubusercontent.com/benmoumen/aries-oca-bundles/main/OCABundles/schema/elsalvador/company-token/background-slice.jpg",
+        "background_image": "https://raw.githubusercontent.com/benmoumen/aries-oca-bundles/main/OCABundles/schema/elsalvador/company-token/background.jpg",
+        "primary_background_color": "#0023F5",
+        "secondary_background_color": "rgb(0, 0, 0)",
+        "primary_attribute": "associatedCompany",
+        "secondary_attribute": "shareholderName",
+        "issued_date_attribute": "",
+        "expiry_date_attribute": ""
+      }
+    ]
+  }
+]
