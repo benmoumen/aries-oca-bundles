@@ -1,3 +1,4 @@
 {
+   "UNPmGrMhf8SuQs3FSgZVEo:3:CL:29:company-token": { "path": "OCABundles/schema/elsalvador/company-token/OCABundle.json", "sha256": "446687f14e42b5f0f2e3c35bd064067c2a4aa464c12ce193cc8bc9b22eca4755" },
    "UNPmGrMhf8SuQs3FSgZVEo:3:CL:23:certified-passport": { "path": "OCABundles/schema/palestinian-authority/ministry-economy/digital-passport/OCABundle.json", "sha256": "62b75128d9a072464aca209b3fd175a16a60cf0d444421395d9977ef9249ec6a" }
 }
