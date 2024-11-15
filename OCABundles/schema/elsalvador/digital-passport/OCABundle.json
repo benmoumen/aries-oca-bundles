@@ -184,20 +184,20 @@
       },
       {
         "capture_base": "Es9bUnYGTmX8go640jpoiG90QqjZkrPdheuCxUOWDLMw",
-        "description": "Provides a digital verification of passport details to confirm the holder’s identity.",
-        "digest": "ENMQhq-bihd1JIVz3rfQhs8uKZxAD8ZNltAuqa1H6t-Y",
-        "issuer": "Government of El Salvador",
-        "language": "en",
-        "name": "Digital Passport Certificate",
-        "type": "spec/overlays/meta/1.0"
-      },
-      {
-        "capture_base": "Es9bUnYGTmX8go640jpoiG90QqjZkrPdheuCxUOWDLMw",
         "description": "Fournit une vérification numérique des informations de passeport pour confirmer l’identité du titulaire.",
         "digest": "ETO5lDQn1ZHnURG42Q0qX7u5Qt-WnAPbBZO-iuGzA0gw",
         "issuer": "Gouvernement du Salvador",
         "language": "fr",
         "name": "Certificat de Passeport Numérique",
+        "type": "spec/overlays/meta/1.0"
+      },
+      {
+        "capture_base": "Es9bUnYGTmX8go640jpoiG90QqjZkrPdheuCxUOWDLMw",
+        "description": "Provides a digital verification of passport details to confirm the holder’s identity.",
+        "digest": "ENMQhq-bihd1JIVz3rfQhs8uKZxAD8ZNltAuqa1H6t-Y",
+        "issuer": "Government of El Salvador",
+        "language": "en",
+        "name": "Digital Passport Certificate",
         "type": "spec/overlays/meta/1.0"
       },
       {

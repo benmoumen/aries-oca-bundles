@@ -7,9 +7,9 @@ A schema for a digital passport credential issued by the Government of El Salvad
 
 ## Identifiers
 
-| Identifier                                        | Location         | URL                              |
-| ------------------------------------------------- | ---------------- | -------------------------------- |
-| UNPmGrMhf8SuQs3FSgZVEo:3:CL:23:certified-passport | unctad-indy:test | https://indy.govchain.technology |
+| Identifier                                 | Location         | URL                              |
+| ------------------------------------------ | ---------------- | -------------------------------- |
+| UNPmGrMhf8SuQs3FSgZVEo:3:CL:23:sv-passport | unctad-indy:test | https://indy.govchain.technology |
 
 ## Authorization
 
