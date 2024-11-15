@@ -1,0 +1,16 @@
+[
+  {
+    "capture_base": "",
+    "type": "aries/overlays/branding/1.0",
+    "digest": "",
+    "logo": "https://raw.githubusercontent.com/benmoumen/aries-oca-bundles/main/OCABundles/schema/elsalvador/digital-passport/logo.png",
+    "background_image_slice": "https://raw.githubusercontent.com/benmoumen/aries-oca-bundles/main/OCABundles/schema/elsalvador/digital-passport/background-slice.jpg",
+    "background_image": "https://raw.githubusercontent.com/benmoumen/aries-oca-bundles/main/OCABundles/schema/elsalvador/digital-passport/background.jpg",
+    "primary_background_color": "rgb(0, 0, 0)",
+    "secondary_background_color": "rgb(0, 0, 0)",
+    "primary_attribute": "passportNumber",
+    "secondary_attribute": "surname",
+    "issued_date_attribute": "issuanceDate",
+    "expiry_date_attribute": "expirationDate"
+  }
+]
