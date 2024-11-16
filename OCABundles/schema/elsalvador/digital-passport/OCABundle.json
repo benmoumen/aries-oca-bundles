@@ -184,15 +184,6 @@
       },
       {
         "capture_base": "Es9bUnYGTmX8go640jpoiG90QqjZkrPdheuCxUOWDLMw",
-        "description": "Fournit une vérification numérique des informations de passeport pour confirmer l’identité du titulaire.",
-        "digest": "ETO5lDQn1ZHnURG42Q0qX7u5Qt-WnAPbBZO-iuGzA0gw",
-        "issuer": "Gouvernement du Salvador",
-        "language": "fr",
-        "name": "Certificat de Passeport Numérique",
-        "type": "spec/overlays/meta/1.0"
-      },
-      {
-        "capture_base": "Es9bUnYGTmX8go640jpoiG90QqjZkrPdheuCxUOWDLMw",
         "description": "Provides a digital verification of passport details to confirm the holder’s identity.",
         "digest": "ENMQhq-bihd1JIVz3rfQhs8uKZxAD8ZNltAuqa1H6t-Y",
         "issuer": "Government of El Salvador",
@@ -202,12 +193,21 @@
       },
       {
         "capture_base": "Es9bUnYGTmX8go640jpoiG90QqjZkrPdheuCxUOWDLMw",
+        "description": "Fournit une vérification numérique des informations de passeport pour confirmer l’identité du titulaire.",
+        "digest": "ETO5lDQn1ZHnURG42Q0qX7u5Qt-WnAPbBZO-iuGzA0gw",
+        "issuer": "Gouvernement du Salvador",
+        "language": "fr",
+        "name": "Certificat de Passeport Numérique",
+        "type": "spec/overlays/meta/1.0"
+      },
+      {
+        "capture_base": "Es9bUnYGTmX8go640jpoiG90QqjZkrPdheuCxUOWDLMw",
         "type": "aries/overlays/branding/1.0",
         "digest": "",
         "logo": "https://raw.githubusercontent.com/benmoumen/aries-oca-bundles/main/OCABundles/schema/elsalvador/digital-passport/logo.png",
         "background_image_slice": "https://raw.githubusercontent.com/benmoumen/aries-oca-bundles/main/OCABundles/schema/elsalvador/digital-passport/background-slice.jpg",
         "background_image": "https://raw.githubusercontent.com/benmoumen/aries-oca-bundles/main/OCABundles/schema/elsalvador/digital-passport/background.jpg",
-        "primary_background_color": "#FF8000",
+        "primary_background_color": "#7785AC",
         "secondary_background_color": "rgb(0, 0, 0)",
         "primary_attribute": "passportNumber",
         "secondary_attribute": "surname",

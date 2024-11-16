@@ -6,7 +6,7 @@
     "logo": "https://raw.githubusercontent.com/benmoumen/aries-oca-bundles/main/OCABundles/schema/elsalvador/digital-passport/logo.png",
     "background_image_slice": "https://raw.githubusercontent.com/benmoumen/aries-oca-bundles/main/OCABundles/schema/elsalvador/digital-passport/background-slice.jpg",
     "background_image": "https://raw.githubusercontent.com/benmoumen/aries-oca-bundles/main/OCABundles/schema/elsalvador/digital-passport/background.jpg",
-    "primary_background_color": "#FF8000",
+    "primary_background_color": "#7785AC",
     "secondary_background_color": "rgb(0, 0, 0)",
     "primary_attribute": "passportNumber",
     "secondary_attribute": "surname",
