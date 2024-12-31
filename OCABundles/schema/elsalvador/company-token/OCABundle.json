@@ -43,6 +43,44 @@
       {
         "attribute_categories": [],
         "attribute_labels": {
+          "Blockchain Network": "Red Blockchain",
+          "Blockchain Wallet Address": "Dirección de Wallet Blockchain",
+          "Company Name": "Nombre de la Empresa",
+          "Company Registration Number": "Número de Registro de la Empresa",
+          "Date of Registration": "Fecha de Registro",
+          "NFT Token ID": "ID del Token NFT",
+          "Number of Shares": "Número de Acciones",
+          "Share Issuance Date": "Fecha de Emisión de Acciones",
+          "Shareholder DUI": "DUI del Accionista",
+          "Shareholder Full Name": "Nombre Completo del Accionista"
+        },
+        "capture_base": "EYtUVhC0FTw0MFMxK2nCZg_gkcOq-DgXJXQjd98V7-0E",
+        "category_labels": {},
+        "digest": "EP4ZhlHH8aEKGsM5akQh86p8V03vOmSb5jMOqEO4-mbM",
+        "language": "es",
+        "type": "spec/overlays/label/1.0"
+      },
+      {
+        "attribute_information": {
+          "Blockchain Network": "La red blockchain donde se registran el NFT y los tokens.",
+          "Blockchain Wallet Address": "La dirección de la wallet blockchain asociada con el accionista.",
+          "Company Name": "El nombre registrado de la empresa.",
+          "Company Registration Number": "El número de registro único asignado a la empresa.",
+          "Date of Registration": "La fecha en que la empresa fue registrada oficialmente.",
+          "NFT Token ID": "El identificador único del NFT emitido que representa acciones.",
+          "Number of Shares": "El número total de acciones que posee el accionista.",
+          "Share Issuance Date": "La fecha en que se emitieron las acciones.",
+          "Shareholder DUI": "El DUI (Documento Único de Identidad) del accionista.",
+          "Shareholder Full Name": "El nombre completo legal del accionista."
+        },
+        "capture_base": "EYtUVhC0FTw0MFMxK2nCZg_gkcOq-DgXJXQjd98V7-0E",
+        "digest": "EEb5De7sxTC4rr5p3GMaxz-LnlDGt8uK_G8CLXttpmls",
+        "language": "es",
+        "type": "spec/overlays/information/1.0"
+      },
+      {
+        "attribute_categories": [],
+        "attribute_labels": {
           "Blockchain Network": "Réseau Blockchain",
           "Blockchain Wallet Address": "Adresse du Wallet Blockchain",
           "Company Name": "Nom de l'Entreprise",
@@ -117,59 +155,12 @@
         "type": "spec/overlays/information/1.0"
       },
       {
-        "attribute_categories": [],
-        "attribute_labels": {
-          "Blockchain Network": "Red Blockchain",
-          "Blockchain Wallet Address": "Dirección de Wallet Blockchain",
-          "Company Name": "Nombre de la Empresa",
-          "Company Registration Number": "Número de Registro de la Empresa",
-          "Date of Registration": "Fecha de Registro",
-          "NFT Token ID": "ID del Token NFT",
-          "Number of Shares": "Número de Acciones",
-          "Share Issuance Date": "Fecha de Emisión de Acciones",
-          "Shareholder DUI": "DUI del Accionista",
-          "Shareholder Full Name": "Nombre Completo del Accionista"
-        },
-        "capture_base": "EYtUVhC0FTw0MFMxK2nCZg_gkcOq-DgXJXQjd98V7-0E",
-        "category_labels": {},
-        "digest": "EP4ZhlHH8aEKGsM5akQh86p8V03vOmSb5jMOqEO4-mbM",
-        "language": "es",
-        "type": "spec/overlays/label/1.0"
-      },
-      {
-        "attribute_information": {
-          "Blockchain Network": "La red blockchain donde se registran el NFT y los tokens.",
-          "Blockchain Wallet Address": "La dirección de la wallet blockchain asociada con el accionista.",
-          "Company Name": "El nombre registrado de la empresa.",
-          "Company Registration Number": "El número de registro único asignado a la empresa.",
-          "Date of Registration": "La fecha en que la empresa fue registrada oficialmente.",
-          "NFT Token ID": "El identificador único del NFT emitido que representa acciones.",
-          "Number of Shares": "El número total de acciones que posee el accionista.",
-          "Share Issuance Date": "La fecha en que se emitieron las acciones.",
-          "Shareholder DUI": "El DUI (Documento Único de Identidad) del accionista.",
-          "Shareholder Full Name": "El nombre completo legal del accionista."
-        },
-        "capture_base": "EYtUVhC0FTw0MFMxK2nCZg_gkcOq-DgXJXQjd98V7-0E",
-        "digest": "EEb5De7sxTC4rr5p3GMaxz-LnlDGt8uK_G8CLXttpmls",
-        "language": "es",
-        "type": "spec/overlays/information/1.0"
-      },
-      {
         "capture_base": "EYtUVhC0FTw0MFMxK2nCZg_gkcOq-DgXJXQjd98V7-0E",
         "description": "Una credencial verificable emitida a los fundadores tras el registro exitoso de una empresa en el Registro de Comercio de El Salvador. Certifica la propiedad y los detalles esenciales de la empresa, garantizando autenticidad y permitiendo una participación segura en actividades de gobernanza y económicas.",
         "digest": "EiRyKjqRq_G_YQXM383h309YvHwSiSICN4rTQdCWIEMg",
         "issuer": "Gobierno de El Salvador - Registro de Comercio",
         "language": "es",
         "name": "Credencial de Propiedad de Empresa",
-        "type": "spec/overlays/meta/1.0"
-      },
-      {
-        "capture_base": "EYtUVhC0FTw0MFMxK2nCZg_gkcOq-DgXJXQjd98V7-0E",
-        "description": "A verifiable credential issued to the founder(s) upon the successful registration of a company at the Salvadoran Business Registry. It certifies the ownership and essential details of the company, ensuring authenticity and enabling secure participation in governance and economic activities.",
-        "digest": "EXO94prQ_SLB00awzKTvMen33gvdYy81GbN0-YiM3BDM",
-        "issuer": "Government of El Salvador - Business Registry",
-        "language": "en",
-        "name": "Company Credential of Ownership",
         "type": "spec/overlays/meta/1.0"
       },
       {
@@ -183,16 +174,25 @@
       },
       {
         "capture_base": "EYtUVhC0FTw0MFMxK2nCZg_gkcOq-DgXJXQjd98V7-0E",
+        "description": "A verifiable credential issued to the founder(s) upon the successful registration of a company at the Salvadoran Business Registry. It certifies the ownership and essential details of the company, ensuring authenticity and enabling secure participation in governance and economic activities.",
+        "digest": "EXO94prQ_SLB00awzKTvMen33gvdYy81GbN0-YiM3BDM",
+        "issuer": "Government of El Salvador - Business Registry",
+        "language": "en",
+        "name": "Company Credential of Ownership",
+        "type": "spec/overlays/meta/1.0"
+      },
+      {
+        "capture_base": "EYtUVhC0FTw0MFMxK2nCZg_gkcOq-DgXJXQjd98V7-0E",
         "type": "aries/overlays/branding/1.0",
         "digest": "",
         "logo": "https://raw.githubusercontent.com/benmoumen/aries-oca-bundles/main/OCABundles/schema/elsalvador/company-token/logo.png",
         "background_image_slice": "https://raw.githubusercontent.com/benmoumen/aries-oca-bundles/main/OCABundles/schema/elsalvador/company-token/background-slice.jpg",
         "background_image": "https://raw.githubusercontent.com/benmoumen/aries-oca-bundles/main/OCABundles/schema/elsalvador/company-token/background.jpg",
         "primary_background_color": "#0023F5",
-        "secondary_background_color": "rgb(0, 0, 0)",
-        "primary_attribute": "associatedCompany",
-        "secondary_attribute": "shareholderName",
-        "issued_date_attribute": "",
+        "secondary_background_color": "#0023F5",
+        "primary_attribute": "Company Name",
+        "secondary_attribute": "Shareholder Full Name",
+        "issued_date_attribute": "Date of Registration",
         "expiry_date_attribute": ""
       }
     ]

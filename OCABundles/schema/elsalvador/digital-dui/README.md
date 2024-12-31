@@ -1,8 +1,8 @@
-# Salvadoran Unique Identity Document (DUI) Verifiable Credential
+# eDUI - Electronic Unique Identity Document
 
 A secure and verifiable credential representing the Salvadoran Documento Único de Identidad (DUI). This credential provides proof of identity, including personal details such as full name, date of birth, nationality, and address. Issued by the Government of El Salvador, it ensures authenticity and integrity for identity verification in both digital and physical environments.
 
-- Publishing Organization: Government of El Salvador - Registro Nacional de las Personas Naturales (RNPN)
+- Publishing Organization: Government of El Salvador - Registro Nacional de las Personas Naturales
 - Primary Contact Email Address: benmoumen@gmail.com
 
 ## Identifiers

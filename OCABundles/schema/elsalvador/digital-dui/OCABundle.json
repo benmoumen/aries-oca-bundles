@@ -57,52 +57,6 @@
       {
         "attribute_categories": [],
         "attribute_labels": {
-          "Address": "Address",
-          "Date of Birth": "Date of Birth",
-          "Date of Expiry": "Date of Expiry",
-          "Date of Issue": "Date of Issue",
-          "Department": "Department",
-          "Document Number": "Document Number",
-          "Full Name": "Full Name",
-          "Marital Status": "Marital Status",
-          "Municipality": "Municipality",
-          "Nationality": "Nationality",
-          "Photograph": "Photograph",
-          "Place of Birth": "Place of Birth",
-          "Sex": "Sex",
-          "Signature": "Signature"
-        },
-        "capture_base": "ERR8RwEJjy9cbPiR9anuZhArGJNOkb5K7pGAP8OqUNGA",
-        "category_labels": {},
-        "digest": "ERF6VltMS4DyfCnsr3_KeIhvmWo2zGT3_kbRrc9fdzFE",
-        "language": "en",
-        "type": "spec/overlays/label/1.0"
-      },
-      {
-        "attribute_information": {
-          "Address": "The residential address of the individual as per the DUI.",
-          "Date of Birth": "The date of birth of the individual as per official records.",
-          "Date of Expiry": "The expiration date of the DUI document.",
-          "Date of Issue": "The date on which the DUI was officially issued.",
-          "Department": "The department or administrative region of residence.",
-          "Document Number": "The unique document number assigned to the DUI.",
-          "Full Name": "The complete legal name of the individual as recorded in the DUI.",
-          "Marital Status": "The marital status of the individual (e.g., single, married).",
-          "Municipality": "The municipality where the individual resides, as recorded.",
-          "Nationality": "The nationality of the individual as recorded in the DUI.",
-          "Photograph": "A photograph of the individual for identification purposes.",
-          "Place of Birth": "The location (city or place) where the individual was born.",
-          "Sex": "The recorded sex (male or female) of the individual.",
-          "Signature": "The signature of the individual as recorded in the DUI."
-        },
-        "capture_base": "ERR8RwEJjy9cbPiR9anuZhArGJNOkb5K7pGAP8OqUNGA",
-        "digest": "EIOr1s7LDvL9XlCJzBSOH9k4zUX6OWf7hPSMnvN0N_RY",
-        "language": "en",
-        "type": "spec/overlays/information/1.0"
-      },
-      {
-        "attribute_categories": [],
-        "attribute_labels": {
           "Address": "Dirección",
           "Date of Birth": "Fecha de Nacimiento",
           "Date of Expiry": "Fecha de Vencimiento",
@@ -193,6 +147,52 @@
         "type": "spec/overlays/information/1.0"
       },
       {
+        "attribute_categories": [],
+        "attribute_labels": {
+          "Address": "Address",
+          "Date of Birth": "Date of Birth",
+          "Date of Expiry": "Date of Expiry",
+          "Date of Issue": "Date of Issue",
+          "Department": "Department",
+          "Document Number": "Document Number",
+          "Full Name": "Full Name",
+          "Marital Status": "Marital Status",
+          "Municipality": "Municipality",
+          "Nationality": "Nationality",
+          "Photograph": "Photograph",
+          "Place of Birth": "Place of Birth",
+          "Sex": "Sex",
+          "Signature": "Signature"
+        },
+        "capture_base": "ERR8RwEJjy9cbPiR9anuZhArGJNOkb5K7pGAP8OqUNGA",
+        "category_labels": {},
+        "digest": "ERF6VltMS4DyfCnsr3_KeIhvmWo2zGT3_kbRrc9fdzFE",
+        "language": "en",
+        "type": "spec/overlays/label/1.0"
+      },
+      {
+        "attribute_information": {
+          "Address": "The residential address of the individual as per the DUI.",
+          "Date of Birth": "The date of birth of the individual as per official records.",
+          "Date of Expiry": "The expiration date of the DUI document.",
+          "Date of Issue": "The date on which the DUI was officially issued.",
+          "Department": "The department or administrative region of residence.",
+          "Document Number": "The unique document number assigned to the DUI.",
+          "Full Name": "The complete legal name of the individual as recorded in the DUI.",
+          "Marital Status": "The marital status of the individual (e.g., single, married).",
+          "Municipality": "The municipality where the individual resides, as recorded.",
+          "Nationality": "The nationality of the individual as recorded in the DUI.",
+          "Photograph": "A photograph of the individual for identification purposes.",
+          "Place of Birth": "The location (city or place) where the individual was born.",
+          "Sex": "The recorded sex (male or female) of the individual.",
+          "Signature": "The signature of the individual as recorded in the DUI."
+        },
+        "capture_base": "ERR8RwEJjy9cbPiR9anuZhArGJNOkb5K7pGAP8OqUNGA",
+        "digest": "EIOr1s7LDvL9XlCJzBSOH9k4zUX6OWf7hPSMnvN0N_RY",
+        "language": "en",
+        "type": "spec/overlays/information/1.0"
+      },
+      {
         "attribute_formats": {
           "Date of Birth": "YYYYMMDD",
           "Date of Expiry": "YYYYMMDD",
@@ -214,29 +214,29 @@
       },
       {
         "capture_base": "ERR8RwEJjy9cbPiR9anuZhArGJNOkb5K7pGAP8OqUNGA",
-        "description": "A secure and verifiable credential representing the Salvadoran Documento Único de Identidad (DUI). This credential provides proof of identity, including personal details such as full name, date of birth, nationality, and address. Issued by the Government of El Salvador, it ensures authenticity and integrity for identity verification in both digital and physical environments.",
-        "digest": "EiK64M0Rg452qu28G1k09hv1k7S3JLcF3Q6Y2SczoUOU",
-        "issuer": "Government of El Salvador - RNPN",
-        "language": "en",
-        "name": "Unique Identity Document (Digital DUI)",
-        "type": "spec/overlays/meta/1.0"
-      },
-      {
-        "capture_base": "ERR8RwEJjy9cbPiR9anuZhArGJNOkb5K7pGAP8OqUNGA",
-        "description": "Una credencial segura y verificable que representa el Documento Único de Identidad (DUI) salvadoreño. Esta credencial proporciona una prueba de identidad, incluyendo detalles personales como nombre completo, fecha de nacimiento, nacionalidad y dirección. Emitida por el Gobierno de El Salvador, garantiza autenticidad e integridad para la verificación de identidad en entornos digitales y físicos.",
-        "digest": "ESVX3gBX-2ht-WWhyak6wtkTVcV-XJ0wVVx70UJjl_Xw",
-        "issuer": "Gobierno de El Salvador - RNPN",
+        "description": "Una credencial segura y verificable que representa el Documento Único de Identidad (DUI) salvadoreño.",
+        "digest": "E805t4IR2TJ2OEsj0VjYaxBMi7rKbdVZ7_PBm8R-sXhQ",
+        "issuer": "Gobierno de El Salvador",
         "language": "es",
-        "name": "Documento Único de Identidad (DUI Digital)",
+        "name": "eDUI - Documento Único de Identidad Electrónico",
         "type": "spec/overlays/meta/1.0"
       },
       {
         "capture_base": "ERR8RwEJjy9cbPiR9anuZhArGJNOkb5K7pGAP8OqUNGA",
-        "description": "Un certificat sécurisé et vérifiable représentant le Document Unique d’Identité (DUI) salvadorien. Ce certificat fournit une preuve d’identité, incluant des informations personnelles telles que le nom complet, la date de naissance, la nationalité et l’adresse. Émis par le Gouvernement du Salvador, il garantit l’authenticité et l’intégrité pour la vérification de l’identité dans des environnements numériques et physiques.",
-        "digest": "EoZ0ZtMJmhkzmdAgumiPngnnvM3yLM3iA-sIfjvbyQVw",
-        "issuer": "Gouvernement du Salvador - RNPN",
+        "description": "Un certificat sécurisé et vérifiable représentant le Document Unique d’Identité (DUI) salvadorien.",
+        "digest": "Et4IZQCwoXyPJWgXjjcYVUwB8TI9pYHpH0AXbfDd0WRQ",
+        "issuer": "Gouvernement du Salvador",
         "language": "fr",
-        "name": "Document Unique d’Identité (DUI numérique)",
+        "name": "eDUI - Document Unique d’Identité Électronique",
+        "type": "spec/overlays/meta/1.0"
+      },
+      {
+        "capture_base": "ERR8RwEJjy9cbPiR9anuZhArGJNOkb5K7pGAP8OqUNGA",
+        "description": "A secure and verifiable credential representing the Salvadoran Documento Único de Identidad (DUI).",
+        "digest": "E4Dt0MUa5JBjDtXOVxe0NJzEH2fKpuVuVDXWxL3Z9Uw8",
+        "issuer": "Government of El Salvador",
+        "language": "en",
+        "name": "eDUI - Electronic Unique Identity Document",
         "type": "spec/overlays/meta/1.0"
       },
       {
@@ -248,8 +248,8 @@
         "background_image": "https://raw.githubusercontent.com/benmoumen/aries-oca-bundles/main/OCABundles/schema/elsalvador/digital-dui/background.jpg",
         "primary_background_color": "#0047AB",
         "secondary_background_color": "#0047AB",
-        "primary_attribute": "Document Number",
-        "secondary_attribute": "Full Name",
+        "primary_attribute": "Full Name",
+        "secondary_attribute": "Document Number",
         "issued_date_attribute": "Date of Issue",
         "expiry_date_attribute": "Date of Expiry"
       }

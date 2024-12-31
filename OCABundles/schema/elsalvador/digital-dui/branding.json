@@ -8,8 +8,8 @@
     "background_image": "https://raw.githubusercontent.com/benmoumen/aries-oca-bundles/main/OCABundles/schema/elsalvador/digital-dui/background.jpg",
     "primary_background_color": "#0047AB",
     "secondary_background_color": "#0047AB",
-    "primary_attribute": "Document Number",
-    "secondary_attribute": "Full Name",
+    "primary_attribute": "Full Name",
+    "secondary_attribute": "Document Number",
     "issued_date_attribute": "Date of Issue",
     "expiry_date_attribute": "Date of Expiry"
   }
