@@ -1,15 +1,15 @@
-# Company Ownership Token Credential
+# Company Credential of Ownership
 
-A credential representing the ownership of a company's shares by a shareholder.
+A verifiable credential issued to the founder(s) upon the successful registration of a company at the Salvadoran Business Registry. It certifies the ownership and essential details of the company, ensuring authenticity and enabling secure participation in governance and economic activities.
 
-- Publishing Organization: Government of El Salvador
+- Publishing Organization: Government of El Salvador - Business Registry
 - Primary Contact Email Address: benmoumen@gmail.com
 
 ## Identifiers
 
 | Identifier                                   | Location         | URL                              |
 | -------------------------------------------- | ---------------- | -------------------------------- |
-| UNPmGrMhf8SuQs3FSgZVEo:3:CL:29:company-token | unctad-indy:test | https://indy.govchain.technology |
+| K6zBDo67bUpgzaKzSxn7tQ:3:CL:16:company_token | unctad-indy:test | https://indy.govchain.technology |
 
 ## Authorization
 

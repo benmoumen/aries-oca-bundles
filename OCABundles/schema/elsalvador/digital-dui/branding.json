@@ -1,0 +1,16 @@
+[
+  {
+    "capture_base": "",
+    "type": "aries/overlays/branding/1.0",
+    "digest": "",
+    "logo": "https://raw.githubusercontent.com/benmoumen/aries-oca-bundles/main/OCABundles/schema/elsalvador/digital-dui/logo.png",
+    "background_image_slice": "https://raw.githubusercontent.com/benmoumen/aries-oca-bundles/main/OCABundles/schema/elsalvador/digital-dui/background-slice.jpg",
+    "background_image": "https://raw.githubusercontent.com/benmoumen/aries-oca-bundles/main/OCABundles/schema/elsalvador/digital-dui/background.jpg",
+    "primary_background_color": "#0047AB",
+    "secondary_background_color": "#0047AB",
+    "primary_attribute": "Document Number",
+    "secondary_attribute": "Full Name",
+    "issued_date_attribute": "Date of Issue",
+    "expiry_date_attribute": "Date of Expiry"
+  }
+]

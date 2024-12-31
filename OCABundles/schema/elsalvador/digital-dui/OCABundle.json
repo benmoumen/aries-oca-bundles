@@ -1,0 +1,258 @@
+[
+  {
+    "capture_base": {
+      "attributes": {
+        "Address": "Text",
+        "Date of Birth": "DateTime",
+        "Date of Expiry": "DateTime",
+        "Date of Issue": "DateTime",
+        "Department": "Text",
+        "Document Number": "Text",
+        "Full Name": "Text",
+        "Marital Status": "Text",
+        "Municipality": "Text",
+        "Nationality": "Text",
+        "Photograph": "Binary",
+        "Place of Birth": "Text",
+        "Sex": "Text",
+        "Signature": "Binary"
+      },
+      "classification": "",
+      "digest": "ERR8RwEJjy9cbPiR9anuZhArGJNOkb5K7pGAP8OqUNGA",
+      "flagged_attributes": [
+        "Full Name",
+        "Document Number",
+        "Date of Birth",
+        "Place of Birth",
+        "Date of Issue",
+        "Address",
+        "Photograph",
+        "Signature"
+      ],
+      "type": "spec/capture_base/1.0"
+    },
+    "overlays": [
+      {
+        "attribute_character_encoding": {
+          "Address": "utf-8",
+          "Date of Birth": "utf-8",
+          "Date of Expiry": "utf-8",
+          "Date of Issue": "utf-8",
+          "Department": "utf-8",
+          "Document Number": "utf-8",
+          "Full Name": "utf-8",
+          "Marital Status": "utf-8",
+          "Municipality": "utf-8",
+          "Nationality": "utf-8",
+          "Photograph": "utf-8",
+          "Place of Birth": "utf-8",
+          "Sex": "utf-8",
+          "Signature": "utf-8"
+        },
+        "capture_base": "ERR8RwEJjy9cbPiR9anuZhArGJNOkb5K7pGAP8OqUNGA",
+        "default_character_encoding": "utf-8",
+        "digest": "EMi8-VeGbkeBWd5MYSX7VRm6EKzzu4oepXqNrnU9j028",
+        "type": "spec/overlays/character_encoding/1.0"
+      },
+      {
+        "attribute_categories": [],
+        "attribute_labels": {
+          "Address": "Address",
+          "Date of Birth": "Date of Birth",
+          "Date of Expiry": "Date of Expiry",
+          "Date of Issue": "Date of Issue",
+          "Department": "Department",
+          "Document Number": "Document Number",
+          "Full Name": "Full Name",
+          "Marital Status": "Marital Status",
+          "Municipality": "Municipality",
+          "Nationality": "Nationality",
+          "Photograph": "Photograph",
+          "Place of Birth": "Place of Birth",
+          "Sex": "Sex",
+          "Signature": "Signature"
+        },
+        "capture_base": "ERR8RwEJjy9cbPiR9anuZhArGJNOkb5K7pGAP8OqUNGA",
+        "category_labels": {},
+        "digest": "ERF6VltMS4DyfCnsr3_KeIhvmWo2zGT3_kbRrc9fdzFE",
+        "language": "en",
+        "type": "spec/overlays/label/1.0"
+      },
+      {
+        "attribute_information": {
+          "Address": "The residential address of the individual as per the DUI.",
+          "Date of Birth": "The date of birth of the individual as per official records.",
+          "Date of Expiry": "The expiration date of the DUI document.",
+          "Date of Issue": "The date on which the DUI was officially issued.",
+          "Department": "The department or administrative region of residence.",
+          "Document Number": "The unique document number assigned to the DUI.",
+          "Full Name": "The complete legal name of the individual as recorded in the DUI.",
+          "Marital Status": "The marital status of the individual (e.g., single, married).",
+          "Municipality": "The municipality where the individual resides, as recorded.",
+          "Nationality": "The nationality of the individual as recorded in the DUI.",
+          "Photograph": "A photograph of the individual for identification purposes.",
+          "Place of Birth": "The location (city or place) where the individual was born.",
+          "Sex": "The recorded sex (male or female) of the individual.",
+          "Signature": "The signature of the individual as recorded in the DUI."
+        },
+        "capture_base": "ERR8RwEJjy9cbPiR9anuZhArGJNOkb5K7pGAP8OqUNGA",
+        "digest": "EIOr1s7LDvL9XlCJzBSOH9k4zUX6OWf7hPSMnvN0N_RY",
+        "language": "en",
+        "type": "spec/overlays/information/1.0"
+      },
+      {
+        "attribute_categories": [],
+        "attribute_labels": {
+          "Address": "Adresse",
+          "Date of Birth": "Date de naissance",
+          "Date of Expiry": "Date d’expiration",
+          "Date of Issue": "Date d’émission",
+          "Department": "Département",
+          "Document Number": "Numéro de document",
+          "Full Name": "Nom complet",
+          "Marital Status": "État civil",
+          "Municipality": "Municipalité",
+          "Nationality": "Nationalité",
+          "Photograph": "Photographie",
+          "Place of Birth": "Lieu de naissance",
+          "Sex": "Sexe",
+          "Signature": "Signature"
+        },
+        "capture_base": "ERR8RwEJjy9cbPiR9anuZhArGJNOkb5K7pGAP8OqUNGA",
+        "category_labels": {},
+        "digest": "EuwM0s4VVopsTMDT1olzrbTJDVzh6GGlKuFGTlJ--Nxk",
+        "language": "fr",
+        "type": "spec/overlays/label/1.0"
+      },
+      {
+        "attribute_information": {
+          "Address": "L’adresse résidentielle de la personne selon le DUI.",
+          "Date of Birth": "La date de naissance de la personne selon les registres officiels.",
+          "Date of Expiry": "La date d’expiration du document DUI.",
+          "Date of Issue": "La date à laquelle le DUI a été officiellement émis.",
+          "Department": "Le département ou la région administrative de résidence.",
+          "Document Number": "Le numéro unique attribué au document DUI.",
+          "Full Name": "Le nom légal complet de la personne enregistré dans le DUI.",
+          "Marital Status": "L’état civil de la personne (ex. célibataire, marié).",
+          "Municipality": "La municipalité où réside la personne, selon le registre.",
+          "Nationality": "La nationalité de la personne enregistrée dans le DUI.",
+          "Photograph": "Une photographie de la personne à des fins d’identification.",
+          "Place of Birth": "Le lieu (ville ou localité) où la personne est née.",
+          "Sex": "Le sexe enregistré (masculin ou féminin) de la personne.",
+          "Signature": "La signature de la personne enregistrée dans le DUI."
+        },
+        "capture_base": "ERR8RwEJjy9cbPiR9anuZhArGJNOkb5K7pGAP8OqUNGA",
+        "digest": "EuULAvCDyhnVNYn9Z2ywkAtwP9flhWr5GFgmIWgoLNuI",
+        "language": "fr",
+        "type": "spec/overlays/information/1.0"
+      },
+      {
+        "attribute_categories": [],
+        "attribute_labels": {
+          "Address": "Dirección",
+          "Date of Birth": "Fecha de Nacimiento",
+          "Date of Expiry": "Fecha de Vencimiento",
+          "Date of Issue": "Fecha de Emisión",
+          "Department": "Departamento",
+          "Document Number": "Número de Documento",
+          "Full Name": "Nombre Completo",
+          "Marital Status": "Estado Civil",
+          "Municipality": "Municipio",
+          "Nationality": "Nacionalidad",
+          "Photograph": "Fotografía",
+          "Place of Birth": "Lugar de Nacimiento",
+          "Sex": "Sexo",
+          "Signature": "Firma"
+        },
+        "capture_base": "ERR8RwEJjy9cbPiR9anuZhArGJNOkb5K7pGAP8OqUNGA",
+        "category_labels": {},
+        "digest": "EiCW8YMWA2SzmzaxW4SARSflKg8kn5t3pA7U6h_sqfH8",
+        "language": "es",
+        "type": "spec/overlays/label/1.0"
+      },
+      {
+        "attribute_information": {
+          "Address": "La dirección residencial de la persona según el DUI.",
+          "Date of Birth": "La fecha de nacimiento de la persona según los registros oficiales.",
+          "Date of Expiry": "La fecha de vencimiento del documento DUI.",
+          "Date of Issue": "La fecha en que se emitió oficialmente el DUI.",
+          "Department": "El departamento o región administrativa de residencia.",
+          "Document Number": "El número único asignado al documento DUI.",
+          "Full Name": "El nombre legal completo de la persona registrado en el DUI.",
+          "Marital Status": "El estado civil de la persona (ej. soltero, casado).",
+          "Municipality": "El municipio donde reside la persona, según el registro.",
+          "Nationality": "La nacionalidad de la persona registrada en el DUI.",
+          "Photograph": "Una fotografía de la persona para fines de identificación.",
+          "Place of Birth": "El lugar (ciudad o localidad) donde nació la persona.",
+          "Sex": "El sexo registrado (masculino o femenino) de la persona.",
+          "Signature": "La firma de la persona registrada en el DUI."
+        },
+        "capture_base": "ERR8RwEJjy9cbPiR9anuZhArGJNOkb5K7pGAP8OqUNGA",
+        "digest": "E0csxvyB-1mHGxDp9_yRY1PKKa_GSyOO_eoK_7UZjouw",
+        "language": "es",
+        "type": "spec/overlays/information/1.0"
+      },
+      {
+        "attribute_formats": {
+          "Date of Birth": "YYYYMMDD",
+          "Date of Expiry": "YYYYMMDD",
+          "Date of Issue": "YYYYMMDD"
+        },
+        "capture_base": "ERR8RwEJjy9cbPiR9anuZhArGJNOkb5K7pGAP8OqUNGA",
+        "digest": "ERI4JXrD2N3vrLpvRTJJIcAraEInwcyWnU1u1PNvf0Xg",
+        "type": "spec/overlays/format/1.0"
+      },
+      {
+        "attribute_standards": {
+          "Date of Birth": "urn:iso:std:iso:1989",
+          "Date of Expiry": "urn:iso:std:iso:1989",
+          "Date of Issue": "urn:iso:std:iso:1989"
+        },
+        "capture_base": "ERR8RwEJjy9cbPiR9anuZhArGJNOkb5K7pGAP8OqUNGA",
+        "digest": "EZ1aksJrf0Wvlmou97uBqU4QbPd7FqUJ6-d26xD0fyqE",
+        "type": "spec/overlays/standard/1.0"
+      },
+      {
+        "capture_base": "ERR8RwEJjy9cbPiR9anuZhArGJNOkb5K7pGAP8OqUNGA",
+        "description": "A secure and verifiable credential representing the Salvadoran Documento Único de Identidad (DUI). This credential provides proof of identity, including personal details such as full name, date of birth, nationality, and address. Issued by the Government of El Salvador, it ensures authenticity and integrity for identity verification in both digital and physical environments.",
+        "digest": "E8Za2qqP6INkEqfv8r01-EmA0NvNHiqhWSmVXNV6IGwA",
+        "issuer": "Government of El Salvador - Registro Nacional de las Personas Naturales",
+        "language": "en",
+        "name": "Salvadoran Unique Identity Document (DUI) Verifiable Credential",
+        "type": "spec/overlays/meta/1.0"
+      },
+      {
+        "capture_base": "ERR8RwEJjy9cbPiR9anuZhArGJNOkb5K7pGAP8OqUNGA",
+        "description": "Un certificat sécurisé et vérifiable représentant le Document Unique d’Identité (DUI) salvadorien. Ce certificat fournit une preuve d’identité, incluant des informations personnelles telles que le nom complet, la date de naissance, la nationalité et l’adresse. Émis par le Gouvernement du Salvador, il garantit l’authenticité et l’intégrité pour la vérification de l’identité dans des environnements numériques et physiques.",
+        "digest": "ETALmCsrBXxZM3msX2WPjqdGRcMS9IYK_JqQGGMFPdOE",
+        "issuer": "Gouvernement du Salvador",
+        "language": "fr",
+        "name": "Certificat Vérifiable du Document Unique d’Identité (DUI) du Salvador",
+        "type": "spec/overlays/meta/1.0"
+      },
+      {
+        "capture_base": "ERR8RwEJjy9cbPiR9anuZhArGJNOkb5K7pGAP8OqUNGA",
+        "description": "Una credencial segura y verificable que representa el Documento Único de Identidad (DUI) salvadoreño. Esta credencial proporciona una prueba de identidad, incluyendo detalles personales como nombre completo, fecha de nacimiento, nacionalidad y dirección. Emitida por el Gobierno de El Salvador, garantiza autenticidad e integridad para la verificación de identidad en entornos digitales y físicos.",
+        "digest": "EJwatFyGhFN1oHXa8VmW0FLf_lvzHmpJ2BMRdcxonqVk",
+        "issuer": "Gobierno de El Salvador",
+        "language": "es",
+        "name": "Credencial Verificable del Documento Único de Identidad (DUI) de El Salvador",
+        "type": "spec/overlays/meta/1.0"
+      },
+      {
+        "capture_base": "ERR8RwEJjy9cbPiR9anuZhArGJNOkb5K7pGAP8OqUNGA",
+        "type": "aries/overlays/branding/1.0",
+        "digest": "",
+        "logo": "https://raw.githubusercontent.com/benmoumen/aries-oca-bundles/main/OCABundles/schema/elsalvador/digital-dui/logo.png",
+        "background_image_slice": "https://raw.githubusercontent.com/benmoumen/aries-oca-bundles/main/OCABundles/schema/elsalvador/digital-dui/background-slice.jpg",
+        "background_image": "https://raw.githubusercontent.com/benmoumen/aries-oca-bundles/main/OCABundles/schema/elsalvador/digital-dui/background.jpg",
+        "primary_background_color": "#0047AB",
+        "secondary_background_color": "#0047AB",
+        "primary_attribute": "Document Number",
+        "secondary_attribute": "Full Name",
+        "issued_date_attribute": "Date of Issue",
+        "expiry_date_attribute": "Date of Expiry"
+      }
+    ]
+  }
+]

@@ -1,5 +1,4 @@
 {
-   "UNPmGrMhf8SuQs3FSgZVEo:3:CL:29:company-token": { "path": "OCABundles/schema/elsalvador/company-token/OCABundle.json", "sha256": "446687f14e42b5f0f2e3c35bd064067c2a4aa464c12ce193cc8bc9b22eca4755" },
-   "UNPmGrMhf8SuQs3FSgZVEo:3:CL:23:sv-passport": { "path": "OCABundles/schema/elsalvador/digital-passport/OCABundle.json", "sha256": "07257a25491ac83493f39eaf15d565cdb17a93e718149c7a83fcdffe7d820125" },
-   "UNPmGrMhf8SuQs3FSgZVEo:3:CL:23:certified-passport": { "path": "OCABundles/schema/palestinian-authority/ministry-economy/digital-passport/OCABundle.json", "sha256": "62b75128d9a072464aca209b3fd175a16a60cf0d444421395d9977ef9249ec6a" }
+   "K6zBDo67bUpgzaKzSxn7tQ:3:CL:16:company_token": { "path": "OCABundles/schema/elsalvador/company-token/OCABundle.json", "sha256": "2b027b4dce4857481945db492a8a51e6918327f736a880e2c02a9eff01125a51" },
+   "K6zBDo67bUpgzaKzSxn7tQ:3:CL:13:2025": { "path": "OCABundles/schema/elsalvador/digital-dui/OCABundle.json", "sha256": "fb7ad7d05e643b3a2c58b9b2dbe8216b65b0607408a34fde1fb2facdf56ece53" }
 }
